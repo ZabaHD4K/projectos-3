@@ -1,5 +1,5 @@
-import logo from '../logo.svg';
-import '../styles/App.css';
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
   return (
@@ -22,5 +22,4 @@ function App() {
   );
 }
 
-// comentario
 export default App;
