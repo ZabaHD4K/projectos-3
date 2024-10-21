@@ -164,3 +164,21 @@
 html, body {
   overflow-x: hidden;
 }
+
+#analisis-title {
+  text-align: center;
+  color: aliceblue;
+  background-color: #282c34;
+  padding: 10px;
+  margin-top: 0px;
+}
+
+#analisis-navbar {
+  background-color: rgba(185, 184, 117, 0.8); 
+  margin-top: 15px;
+  padding: 15px;
+}
+
+#analisis-articulos {
+  background-color: #444;
+}
