@@ -36,3 +36,61 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+#main-paginas{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #282c34;
+  margin-top: 14px;
+}
+#main-botones{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #282c34;
+  gap: 3pc;
+  height: 30px;
+  
+  margin-right: 20%;
+  
+}
+
+
+
+#main-logo{
+  justify-content: center;
+  background-image: url('./recursos/main-baner1.jpg');
+  transform: scale(1.1);
+  background-size: cover;
+  background-position: center;
+  height: 320px;
+}
+
+
+#main-noticiaDestacada1{
+  justify-content: center;
+  background-image: url('./recursos/barracuda.jpg');
+  background-size: cover;
+  background-position: center;
+  transform: scale(0.3);
+  height: fit-content;
+  height: 80pc;
+  font-size: 8em; /* Added to make the text larger */
+  color: white;
+}
+
+
+#main-noticiaDestacada2{
+  justify-content: center;
+  background-image: url('./recursos/serie5000.jpg');
+  background-size: cover;
+  background-position: center;
+  transform: scale(0.3);
+  height: fit-content;
+  height: 80pc;
+  font-size: 8em; /* Added to make the text larger */
+  color: white;
+}
