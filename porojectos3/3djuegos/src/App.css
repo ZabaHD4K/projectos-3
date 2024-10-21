@@ -37,30 +37,34 @@
   }
 }
 
-
-
-#main-paginas{
+#main-paginas {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: #282c34;
+  background-color: rgba(185, 184, 117, 0.8);
   margin-top: 14px;
+  border-radius: 0%;
+  border: 2px solid #61dafb; 
+  width: 100%;
+  padding: 10px; 
+  box-sizing: border-box;
+  height: 30px; 
 }
-#main-botones{
+
+#main-botones {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: #282c34;
-  gap: 3pc;
-  height: 30px;
-  
-  margin-right: 20%;
-  
+  background-color: rgba(185, 184, 117, 0.8);
+  gap: 3pc; 
+  height: 40px; 
+  margin-right: 0;
+  width: 100%;
+  padding: 10px; 
+  box-sizing: border-box;
 }
 
-
-
-#main-logo{
+#main-logo {
   justify-content: center;
   background-image: url('./recursos/main-baner1.jpg');
   transform: scale(1.1);
@@ -69,28 +73,43 @@
   height: 320px;
 }
 
-
-#main-noticiaDestacada1{
+#noticias-destacadas {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  background-image: url('./recursos/barracuda.jpg');
-  background-size: cover;
-  background-position: center;
-  transform: scale(0.3);
-  height: fit-content;
-  height: 80pc;
-  font-size: 8em; /* Added to make the text larger */
-  color: white;
+  background-color: #282c34;
+  margin-top: -150px;
 }
 
-
-#main-noticiaDestacada2{
+#main-noticiaDestacada1,
+#main-noticiaDestacada2 {
+  display: flex;
+  align-items: flex-start;
   justify-content: center;
-  background-image: url('./recursos/serie5000.jpg');
-  background-size: cover;
-  background-position: center;
-  transform: scale(0.3);
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  transform: scale(0.7);
   height: fit-content;
   height: 80pc;
-  font-size: 8em; /* Added to make the text larger */
+  font-size: 2em;
   color: white;
+  width: 50%;
+  box-sizing: border-box;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 0;
+  margin-right: -20px;
+}
+
+#main-noticiaDestacada1 {
+  background-image: url('./recursos/barracuda.jpg');
+}
+
+#main-noticiaDestacada2 {
+  background-image: url('./recursos/serie5000.jpg');
+}
+
+html, body {
+  overflow-x: hidden;
 }
