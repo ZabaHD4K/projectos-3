@@ -91,23 +91,74 @@
   background-repeat: no-repeat;
   transform: scale(0.7);
   height: fit-content;
-  height: 80pc;
+  height: 55pc; /* Reduced height */
   font-size: 2em;
   color: white;
   width: 50%;
   box-sizing: border-box;
   text-align: center;
-  margin-top: 0;
+  margin-top: 100px; /* Increased margin-top to lower the elements by 30pc */
   padding-top: 0;
   margin-right: -20px;
+  
+  
 }
 
 #main-noticiaDestacada1 {
-  background-image: url('./recursos/barracuda.jpg');
+  background-image: url('./recursos/barracuda.jpg');  
 }
 
 #main-noticiaDestacada2 {
   background-image: url('./recursos/serie5000.jpg');
+}
+
+
+
+#noticias-recientes {
+  display: flex;
+  flex-wrap: nowrap; /* Changed from wrap to nowrap */
+  justify-content: center;
+  background-color: #444; /* Cambiado a un color más oscuro para mayor visibilidad */
+  margin-top: -250px;
+  padding: 20px; /* Added padding to ensure content doesn't touch the edges */
+  box-sizing: border-box; /* Ensures padding is included in the element's total width and height */
+}
+
+
+#main-noticiaReciente1,
+#main-noticiaReciente2,
+#main-noticiaReciente3 {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: flex-start; /* Align items to the top */
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  transform: scale(0.7);
+  height: fit-content;
+  height: 50pc;
+  font-size: 2em;
+  color: white;
+  width: 33.33%; /* Fit three items in one line */
+  box-sizing: border-box;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 20px; /* Added padding to the top */
+  margin-right: 0; /* Adjusted margin to 0 */
+  padding-bottom: 0; /* Removed padding from the bottom */
+}
+
+#main-noticiaReciente1 {
+  background-image: url('./recursos/main-bo66.jpg');
+}
+
+#main-noticiaReciente2 {
+  background-image: url('./recursos/steam-dek.jpeg');
+}
+
+#main-noticiaReciente3 {
+  background-image: url('./recursos/sc.jpeg');
 }
 
 html, body {
