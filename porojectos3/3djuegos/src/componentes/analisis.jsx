@@ -1,8 +1,25 @@
 import { useState } from "react";
 
 function Analisis({ volver }) {
-    return <div>
-      <header id="main-zonaSuperios">
+  return <div>
+    <header id="main-zonaSuperios">
+      <div id="main-logo">
+        <div>
+          hola
+        </div>
+      </div>
+      <nav id="analisis-cabecera">
+        <div id="analisis-botones">
+          <button onClick={volver}>Volver al Main</button>
+        </div>
+        <h1 id="analisis-titulo"> Análisis </h1>
+      </nav>
+      <div id="analisis-articulosArea">
+        <div className="analisis-articulo"></div>
+      </div> 
+    </header>
+  </div>
+      {/* <header id="main-zonaSuperios">
         <div id="main-logo">
           <div>
             hola
@@ -13,10 +30,8 @@ function Analisis({ volver }) {
         <button onClick={volver}>Volver al Main</button>
       </div>
       <h1 id="analisis-title">Análisis</h1>
-      <div id="analisis-articulos">
-        articulos aqui
-      </div>
-    </div>
+      */}
+    
   }
   
   export default Analisis;
