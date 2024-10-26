@@ -2,7 +2,7 @@ import { useState } from "react";
 
 function Analisis({ volver }) {
   return <div>
-    <header id="main-zonaSuperios">
+    <header id="main-zonaSuperior">
       <div id="main-logo">
         <div>
           hola

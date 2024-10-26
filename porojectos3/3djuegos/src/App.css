@@ -205,3 +205,45 @@ html, body {
 .analisis-articulo {
   
 }
+
+
+#guias-cabecera {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #282c34;
+  margin-top: 14px;
+  border-radius: 0%;
+  width: 100%;
+  padding: 10px; 
+  box-sizing: border-box;
+  height: fit-content; 
+}
+
+#guias-botones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgba(185, 184, 117, 0.8);
+  gap: 3pc; 
+  height: 40px; 
+  margin-right: 0;
+  width: 100%;
+  padding: 10px; 
+  box-sizing: border-box;
+}
+
+#guias-titulo {
+  color: aliceblue;
+  font-size: 220%;
+  letter-spacing: 0.5em;
+  margin: 5px;
+}
+
+#guias-articulosArea {
+
+}
+
+.guias-articulo {
+  
+}
