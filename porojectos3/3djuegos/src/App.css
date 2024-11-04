@@ -193,19 +193,64 @@ html, body {
 
 #analisis-titulo {
   color: aliceblue;
-  font-size: 220%;
-  letter-spacing: 0.5em;
+  font-size: 4em;
+  letter-spacing: 0.2em;
   margin: 5px;
 }
 
-#analisis-articulosArea {
-
+#an-articulos-area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  background-color: #282c34;
+  margin-top: -50px;
 }
 
 .analisis-articulo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  transform: scale(0.8);
+  height: 35pc; 
+  font-size: 2em;
+  width: 80%;
+  box-sizing: border-box;
+  text-align: left;
+  /*margin-top: 80px;  Increased margin-top to lower the elements by 30pc */
+  padding-top: 0;
+  margin-right: -20px;
+  background-color: rgba(14, 16, 18, 0.52);
   
 }
 
+.an-art-foto {
+  height: 90%;
+  width: 60%;
+  align-self: center;
+  margin-left: 2%;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+#an-art-foto-omori {
+  background-image: url('./recursos/Omori_portada.jpg');
+}
+
+#an-art-foto-journey {
+  background-image: url('./recursos/Journey_portada.jpg');
+}
+
+.an-art-titulo {
+  height: 100%;
+  height: 32pc; /* Reduced height */
+  width: 40%;
+  margin-top: 0%;
+  padding: 2%;
+
+  font-size: 1.5em;
+  color: white;
+}
 
 #guias-cabecera {
   display: flex;
