@@ -203,7 +203,7 @@ html, body {
   flex-wrap: wrap;
   justify-content: left;
   background-color: #282c34;
-  margin-top: -50px;
+  margin-top: -30px;
 }
 
 .analisis-articulo {
@@ -211,21 +211,22 @@ html, body {
   align-items: flex-start;
   justify-content: left;
   transform: scale(0.8);
-  height: 35pc; 
+  height: 24pc; 
   font-size: 2em;
-  width: 80%;
+  width: 70%;
   box-sizing: border-box;
   text-align: left;
   /*margin-top: 80px;  Increased margin-top to lower the elements by 30pc */
   padding-top: 0;
   margin-right: -20px;
+  margin-left: 5%;
   background-color: rgba(14, 16, 18, 0.52);
   
 }
 
 .an-art-foto {
   height: 90%;
-  width: 60%;
+  width: 50%;
   align-self: center;
   margin-left: 2%;
   background-size: cover;
@@ -234,21 +235,33 @@ html, body {
 }
 
 #an-art-foto-omori {
-  background-image: url('./recursos/Omori_portada.jpg');
+  background-image: url('./recursos/Analisis_Omori_Portada.jpg');
 }
 
 #an-art-foto-journey {
-  background-image: url('./recursos/Journey_portada.jpg');
+  background-image: url('./recursos/Analisis_Journey_Portada.jpg');
+}
+
+#an-art-foto-mouthwashing {
+  background-image: url('./recursos/Analisis_Mouthwashing_Portada.jpg');
+}
+
+#an-art-foto-deathnote {
+  background-image: url('./recursos/Analisis_DeathNote_Portada.jpg');
+}
+
+#an-art-foto-hades2 {
+  background-image: url('./recursos/Analisis_Hades2_Portada.jpg');
 }
 
 .an-art-titulo {
   height: 100%;
-  height: 32pc; /* Reduced height */
+  height: 20pc; /* Reduced height */
   width: 40%;
   margin-top: 0%;
   padding: 2%;
 
-  font-size: 1.5em;
+  font-size: 1.3em;
   color: white;
 }
 
