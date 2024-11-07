@@ -190,6 +190,18 @@ html, body {
   padding: 10px; 
   box-sizing: border-box;
 }
+#trivia-botones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgba(185, 184, 117, 0.8);
+  gap: 3pc; 
+  height: 40px; 
+  margin-right: 0;
+  width: 100%;
+  padding: 10px; 
+  box-sizing: border-box;
+}
 
 #analisis-titulo {
   color: aliceblue;
@@ -304,4 +316,69 @@ html, body {
 
 .guias-articulo {
   
+}
+
+#trivia-titulo {
+  color: aliceblue;
+  font-size: 300%;
+  letter-spacing: 0.5em;
+  margin: 5px;
+}
+
+#trivia-articulos-contenedor {
+  background-color: #282c34; /* Fondo blanco */
+  text-align: center;
+  padding: 20px; /* Espacio interno alrededor de los artículos */ /* Bordes redondeados */
+  max-width: 1120px; /* Ancho máximo del contenedor */
+  margin: 0 auto; /* Centrar el contenedor en la pantalla */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para que resalte */
+}
+
+#trivia-articulos {
+  display: flex;
+  background-color:#282c34;
+  flex-direction: column;
+  gap: 20px; /* Espacio entre los artículos */
+}
+
+.trivia-articulo {
+  max-width: 900px;
+  text-align: left;
+  font-family: Arial, sans-serif;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+  margin-bottom: 100px;
+}
+
+.trivia-articulo-imagen {
+  width: 90%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.trivia-articulo-texto {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #ddd;
+}
+
+.trivia-articulo-categoria {
+  font-size: 0.9em;
+  color:gold;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.trivia-articulo-detalles {
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 5px;
+} 
+
+
+#trivia-fondo{
+background-image: url('./recursos/trivia-background.jpg');
+background-size: cover;
+
 }
