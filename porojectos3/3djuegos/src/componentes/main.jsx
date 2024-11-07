@@ -22,7 +22,7 @@ function Main({ irAAnalisis, irAGuias, irATrivia, irASeries }) {
       {/* COPIAD HASTA AQUÍ PARA TENER LA MISMA CABECERA */}
       
       <div id="noticias-destacadas">
-        <h1 id="main-noticiaDestacada1">Los nuevos misiles de curcero que pueden cambiar la guerra para siempre</h1>
+        <h1 id="main-noticiaDestacada1">El mirage F1 llega a DCS de mano de una empresa Española</h1>
         <h1 id="main-noticiaDestacada2">La nueva serie 5000 de nvidia puede estar mucho mas cerca de lo que parece</h1>
       </div>
 
