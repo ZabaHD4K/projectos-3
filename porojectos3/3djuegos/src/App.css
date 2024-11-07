@@ -51,31 +51,37 @@
   height: 30px; 
 }
 
-#main-botones {
+.botones {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center; /* Centra verticalmente los elementos */
   background-color: rgba(185, 184, 117, 0.8);
-  gap: 3pc; 
-  height: 40px; 
+  gap: 10px; /* Reducido de 3pc para mejor ajuste */
+  min-height: 60px; /* Cambiado de height fijo a min-height */
   margin-right: 0;
   width: 100%;
-  padding: 10px; 
+  padding: 10px;
   box-sizing: border-box;
 }
 
 .botones button {
-  /* Your button styles go here */
   background-color: #4CAF50;
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 10px 20px; /* Reducido el padding */
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
+  font-size: 14px; /* Reducido el tamaño de fuente */
   cursor: pointer;
+  max-width: 100%;
+  height: auto; /* Permite que la altura se ajuste al contenido */
+  box-sizing: border-box;
+}
+
+.botones button:hover {
+  background-color: #45a049;
 }
 
 
@@ -193,30 +199,7 @@ html, body {
   height: fit-content; 
 }
 
-#analisis-botones {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  background-color: rgba(185, 184, 117, 0.8);
-  gap: 3pc; 
-  height: 40px; 
-  margin-right: 0;
-  width: 100%;
-  padding: 10px; 
-  box-sizing: border-box;
-}
-#trivia-botones {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  background-color: rgba(185, 184, 117, 0.8);
-  gap: 3pc; 
-  height: 40px; 
-  margin-right: 0;
-  width: 100%;
-  padding: 10px; 
-  box-sizing: border-box;
-}
+
 
 #analisis-titulo {
   color: aliceblue;
@@ -305,18 +288,6 @@ html, body {
   height: fit-content; 
 }
 
-#guias-botones {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  background-color: rgba(185, 184, 117, 0.8);
-  gap: 3pc; 
-  height: 40px; 
-  margin-right: 0;
-  width: 100%;
-  padding: 10px; 
-  box-sizing: border-box;
-}
 
 #guias-titulo {
   color: aliceblue;
@@ -325,13 +296,32 @@ html, body {
   margin: 5px;
 }
 
-#guias-articulosArea {
-
+.guias-articulo-destacado {
+  background-color: #f0f8ff;
+  border: 2px solid #ccc;
+  padding: 20px;
+  margin-bottom: 15px;
 }
 
 .guias-articulo {
-  
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 10px;
 }
+
+.guias-art-foto {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.seccion-titulo {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
 
 #trivia-titulo {
   color: aliceblue;
