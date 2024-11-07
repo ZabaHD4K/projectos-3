@@ -10,7 +10,7 @@ function GuiasYTrucos({ volver }) {
         </div>
       </div>
       <nav id="guias-cabecera">
-        <div id="guias-botones">
+        <div id="guias-botones" class="botones">
           <button onClick={volver}>Volver al Main</button>
         </div>
         <h1 id="guias-titulo"> Guias y Trucos </h1>

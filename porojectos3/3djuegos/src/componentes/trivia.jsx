@@ -12,7 +12,7 @@ function Trivia({ volver }) {
         </header>
         <div id="trivia-fondo">
           <nav id="guias-cabecera">
-            <div id="trivia-botones">
+            <div id="trivia-botones" class="botones">
               <button onClick={volver}>Volver al Main</button>
             </div>
             <h1 id="trivia-titulo">Trivia</h1>

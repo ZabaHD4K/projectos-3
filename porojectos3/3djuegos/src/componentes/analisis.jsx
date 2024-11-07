@@ -9,7 +9,7 @@ function Analisis({ volver }) {
         </div>
       </div>
       <nav id="analisis-cabecera">
-        <div id="analisis-botones">
+        <div id="analisis-botones" class="botones">
           <button onClick={volver}>Volver al Main</button>
         </div>
         <h1 id="analisis-titulo"> ANÁLISIS </h1>

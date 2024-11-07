@@ -12,7 +12,7 @@ function Main({ irAAnalisis, irAGuias, irATrivia, irASeries }) {
           </div>
         </div>
         <nav id="main-paginas">
-          <div id="main-botones">
+          <div id="main-botones" class="botones">
           <button onClick={irAGuias}>Ir a Guias y Trucos</button>
           <button onClick={irAAnalisis}>Ir a Análisis</button>
           <button onClick={irATrivia}>Ir a Trivia</button>
