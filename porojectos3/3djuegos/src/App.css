@@ -295,27 +295,47 @@ html, body {
   letter-spacing: 0.5em;
   margin: 5px;
 }
-
-.guias-articulo-destacado {
-  background-color: #f0f8ff;
-  border: 2px solid #ccc;
-  padding: 20px;
-  margin-bottom: 15px;
+#articulos-destacados-lista, #articulos-lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px; /* Aumenta el espacio entre tarjetas */
+  justify-content: center;
 }
 
-.guias-articulo {
-  background-color: #ffffff;
+.guias-articulo-destacado, .guias-articulo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  background-color: #f9f9f9;
   border: 1px solid #ddd;
-  padding: 15px;
-  margin-bottom: 10px;
+  border-radius: 8px;
+  max-width: 800px; /* Aumenta el tamaño máximo de las tarjetas */
+  width: 100%;
+  padding: 20px; /* Aumenta el relleno para mayor espacio interno */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Mayor sombra para destacar */
 }
 
 .guias-art-foto {
-  width: 100%;
-  height: auto;
-  display: block;
+  width: 200px; /* Aumenta el ancho de las fotos */
+  height: 150px; /* Aumenta la altura de las fotos */
+  object-fit: cover;
+  border-radius: 6px; /* Mantén los bordes redondeados */
+  margin-right: 20px; /* Más espacio entre la imagen y el texto */
+}
+
+.guias-art-titulo {
+  font-size: 22px; /* Aumenta el tamaño del texto del título */
+  margin: 0;
   margin-bottom: 10px;
 }
+
+.articulo-texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
 
 .seccion-titulo {
   font-size: 24px;

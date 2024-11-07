@@ -3,14 +3,13 @@ import { useState } from "react";
 function guiasYTrucos({ volver }) {
   // Datos de los artículos
   const articulosDestacados = [
-    { title: "OMORI: Como contar una historia a través de un estilo artístico", image: "omori.jpg" },
-    { title: "Que hace tan especial a Mouthwashing, el nuevo juego de horror surrealista que está arrasando", image: "mouthwashing.jpg" },
-    { title: "Journey y la conexión con otras personas", image: "journey.jpg" },
+    { title: "God of War Ragnarok: Los reinos en guerra, como pasarlo", image: require('../recursos/gow.jpg')  },
+    { title: "Red Dead Redemption 2, ¿cómo resolver el misterio de Emerald Ranch y la chica que mira por la ventana?", image: require('../recursos/red2.jpeg') },
   ];
 
   const articulosNormales = [
-    { title: 'Análisis del tráiler de "Death Note: Killer Within": lo que sabemos hasta ahora', image: "deathnote.jpg" },
-    { title: "Hades II: Novedades, similaridades y diferencias respecto a su predecesor", image: "hades2.jpg" },
+    { title: 'Rainbow Six Siege Año 9 Temporada 2: Todo lo que debes saber sobre los nuevos operadores: Guias y trucos', image: require('../recursos/r6.avif') },
+    { title: "Dragon Age The Veilguard, qué son los Recuerdos y para qué sirven", image: require('../recursos/dragon.jpeg') },
   ];
 
   return (
