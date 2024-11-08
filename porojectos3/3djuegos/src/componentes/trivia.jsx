@@ -56,11 +56,12 @@ function Trivia({ volver }) {
                   className="trivia-articulo-imagen"
                 />
                 <h2 className="trivia-articulo-texto">
-                Donald Trump es presidente gracias al concurso musical de La Voz: la demencial historia que apadrinó Michael Moore
+                
+                El impacto de las redes socieles en las elecciones presidenciales: "Los mensajes en video son clave"
                 </h2>
                 <p className="trivia-articulo-categoria"> Juegos.Com</p>
                 <p className="trivia-articulo-detalles">
-                  Tiempo — Autor — Sin comentarios
+                  Tiempo — Guillermo Perez — 7 comentarios
                 </p>
               </article>  
             </div>
