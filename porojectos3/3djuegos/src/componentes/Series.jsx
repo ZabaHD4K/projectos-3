@@ -10,7 +10,7 @@ function Series({ volver }) {
   const articulos = [
     {
       titulo: '...',
-      descripcion: 'Ahora yo... .',
+      descripcion: 'Ahora yo...',
       categoria: 'Series de moda',
       fecha: 'Hace 1 hora',
       autor: 'Álvaro Pérez',
