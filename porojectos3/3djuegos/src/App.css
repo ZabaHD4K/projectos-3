@@ -407,3 +407,57 @@ background-image: url('./recursos/trivia-background.jpg');
 background-size: cover;
 
 }
+.series-articulos {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #292c34;
+}
+
+.series-articulo {
+  display: flex;
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.series-articulo-imagen {
+  width: 150px;
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 4px;
+  margin-right: 20px;
+}
+
+.series-articulo-texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.series-articulo-texto h2 {
+  font-size: 1.3em;
+  margin: 0;
+}
+
+.series-articulo-texto p {
+  font-size: 0.9em;
+  color: #333;
+  margin: 8px 0;
+}
+
+.categoria {
+  font-size: 0.8em;
+  color: #FFD700;
+  font-weight: bold;
+}
+
+.detalles {
+  font-size: 0.8em;
+  color: #777;
+  margin-top: 5px;
+}
