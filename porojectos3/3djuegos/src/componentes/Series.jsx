@@ -10,7 +10,7 @@ function Series({ volver }) {
   const articulos = [
     {
       titulo: '...',
-      descripcion: 'Ahora yo...',
+      descripcion: 'Ahora yo soy...',
       categoria: 'Series de moda',
       fecha: 'Hace 1 hora',
       autor: 'Álvaro Pérez',
@@ -18,7 +18,7 @@ function Series({ volver }) {
       imagen: TheOregonTrail,
     },
     {
-      titulo: 'The Walking Dead: Daryl Dixon',
+      titulo: 'Rajoy y zombies la nueva serie',
       descripcion: 'Nueva Serie',
       categoria: 'Series',
       fecha: 'Hace 3 horas',
