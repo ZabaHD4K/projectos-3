@@ -1,6 +1,7 @@
 import { useState } from "react";
 import TheOregonTrail from "../recursos/The_Oregon_Trail.jpeg";
 import rey from "../recursos/trivia_rey.jpeg";
+import trump from "../recursos/trivia_trump.jpeg";
 
 function Trivia({ volver }) {
     return (
@@ -12,9 +13,9 @@ function Trivia({ volver }) {
         </header>
         <div id="trivia-fondo">
           <nav id="guias-cabecera">
-            <div id="trivia-botones" class="botones">
-              <button onClick={volver}>Volver al Main</button>
-            </div>
+          <div id="guias-botones" className="botones">
+            <button onClick={volver}>Volver al Main</button>
+          </div>  
             <h1 id="trivia-titulo">Trivia</h1>
           </nav>
           <div id="trivia-articulos-contenedor">
@@ -48,6 +49,20 @@ function Trivia({ volver }) {
                   Tiempo — Autor — Sin comentarios
                 </p>
               </article>
+              <article className="trivia-articulo">
+                <img
+                  src={trump}  // URL de imagen de ejemplo
+                  alt="imagen-rey"
+                  className="trivia-articulo-imagen"
+                />
+                <h2 className="trivia-articulo-texto">
+                Donald Trump es presidente gracias al concurso musical de La Voz: la demencial historia que apadrinó Michael Moore
+                </h2>
+                <p className="trivia-articulo-categoria"> Juegos.Com</p>
+                <p className="trivia-articulo-detalles">
+                  Tiempo — Autor — Sin comentarios
+                </p>
+              </article>  
             </div>
           </div>
         </div>
